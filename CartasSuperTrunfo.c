@@ -2,7 +2,7 @@
 
 int main() {
 
-//declaração de variavel
+ //Declaração de variavel primeira carta
   char estado;
   int numeroDaCidade;
   char nomeDaCidade[50];
@@ -13,8 +13,7 @@ int main() {
   
   
   
-  //Cadastro das cartas
- 
+  //cadastro dos itens da primeira carta
   printf("Cadastro da primeira carta! \n \n");
   
   printf("Escolha de A até H uma letra para o Estado: ");
@@ -40,9 +39,8 @@ int main() {
  
   printf("Cadastro da primeira carta finalizado! \n \n");
  
-  //mostrar resultado
-  
-  printf("Resultado do cadastro da primeira carta! \n \n");
+//mostrando o resultado para o usuario
+ printf("Resultado do cadastro da primeira carta! \n \n");
  
  printf("Carta 1:\n");
  printf("Estado: %c\n", estado);
@@ -57,7 +55,6 @@ int main() {
  
  
  //Definiçao de variavel segunda carta 
- 
   char estado2;
   int numeroDaCidade2;
   char nomeDaCidade2[50];
@@ -66,9 +63,8 @@ int main() {
   float pib2; 
   int pontosTuristicos2; 
  
- printf("Agora iremos cadastrar a segunda carta \n \n");
- 
-
+  //cadastro dos itens da primeira carta
+  printf("Agora iremos cadastrar a segunda carta \n \n");
  
   printf("Escolha de A até H uma letra para o Estado: ");
   scanf(" %c", &estado2);
@@ -92,9 +88,9 @@ int main() {
   scanf(" %d", &pontosTuristicos2);
   "\n";
   
-  //mostrar resultado
-  
- printf("Resultado do cadastro da segunda carta! \n \n");
+ 
+//mostrar resultado
+printf("Resultado do cadastro da segunda carta! \n \n");
  "\n";
  printf("Carta 2: \n");
  printf("Estado: %c\n", estado2);
