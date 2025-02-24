@@ -17,10 +17,10 @@ int main() {
  
   printf("Cadastro da primeira carta! \n \n");
   
-  printf("Escolha de A até H uma letra para o Estado:");
+  printf("Escolha de A até H uma letra para o Estado: ");
   scanf("%c", &estado);
   
-  printf("Digite o numero da carta(O código deverá ser de 01 até 04, antecedido pela letra do estado):" );
+  printf("Digite um numero de \"1\" a \"4\" : ");
   scanf("%d", &numeroDaCidade); 
   
   printf("Escolha um nome para a cidade: ");
@@ -29,13 +29,13 @@ int main() {
   printf("Digite a quantidade de população: ");
   scanf("%d", &populacao);
   
-  printf("Digite a Area da cidade: "); 
+  printf("Digite a Area da cidade(km²): "); 
   scanf("%f", &area);
   
-  printf("Digite o valor do PIB da cidade: ");
+  printf("Digite o valor do PIB da cidade(Bilhoes): ");
   scanf("%f", &pib);
   
-  printf("Digite a quantidade de pontos turisticos da cidade: \n \n");
+  printf("Digite a quantidade de pontos turisticos da cidade:\n");
   scanf("%d", &pontosTuristicos);
  
   printf("Cadastro da primeira carta finalizado! \n \n");
@@ -73,7 +73,7 @@ int main() {
   printf("Escolha de A até H uma letra para o Estado: ");
   scanf(" %c", &estado2);
   
-  printf("Digite o numero da carta(O código deverá ser de 01 até 04, antecedido pela letra do estado):" );
+  printf("Digite um numero de \"1\" a \"4\" : ");
   scanf(" %d", &numeroDaCidade2); 
   
   printf("Escolha um nome para a cidade: ");
