@@ -46,7 +46,7 @@ int main() {
   densidadePopulacional = populacao/area;
 
   //Calculo do PIB per capita (PRIMEIRA CARTA!!)
-  pibPerCapita = populacao/pib
+  pibPerCapita = populacao/pib;
 
   //mostrando o resultado para o usuario (PRIMEIRA CARTA!!)
   printf("Resultado do cadastro da primeira carta! \n \n");
