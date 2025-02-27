@@ -10,6 +10,12 @@ int main() {
   float area; 
   float pib; 
   int pontosTuristicos; 
+
+  // Declaração da variavel de Calculo Densidade populacional
+  float densidadePopulacional;
+ 
+  //Declaração da variavel de Calculo PIB per capita
+  float pibPerCapita;
   
   
   
@@ -34,9 +40,17 @@ int main() {
   printf("Digite o valor do PIB da cidade(Bilhoes): ");
   scanf("%f", &pib);
   
-  printf("Digite a quantidade de pontos turisticos da cidade:\n");
+  printf("Digite a quantidade de pontos turisticos da cidade:\n"); 
   scanf("%d", &pontosTuristicos);
  
+//Calculo da Densidade Populacional e Resultado 
+  densidadePopulacional = populacao/area;
+  printf("Densidade populacional: %f", densidadePopulacional);
+
+  //Calculo e Resultado PIB per Capita
+  pibPerCapita = pib/populacao;
+  printf("PIB per capita: %.2f", pibPerCapita); 
+
   printf("Cadastro da primeira carta finalizado! \n \n");
  
 //mostrando o resultado para o usuario
