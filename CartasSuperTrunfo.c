@@ -105,10 +105,10 @@ int main() {
   printf("Digite a quantidade de pontos turisticos da cidade: ");
   scanf("%d", &pontosTuristicos2);
 
-   //Calculo da densidade populacional (PRIMEIRA CARTA!!)
+   //Calculo da densidade populacional (SEGUNDA CARTA!!)
   densidadePopulacional2 = populacao2/area2;
 
-  //Calculo do PIB per capita (PRIMEIRA CARTA!!)
+  //Calculo do PIB per capita (SEGUNDA CARTA!!)
   pibPerCapita2 = pib2*1000000000/populacao2;
   
   //resultado do cadastro (SEGUNDA CARTA!!)
