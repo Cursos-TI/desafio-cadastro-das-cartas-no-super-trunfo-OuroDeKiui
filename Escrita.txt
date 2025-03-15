@@ -1,0 +1,35 @@
+[Tema 2 - Desafio Nível novato]
+1. Escolher um atributo, comparar e mostrar no final. 
+    1.1. O atributo escolhido será o PIB da cidade.
+
+2. Determinar a carta vencedora
+    2.1. Mostrar qual carta venceu nos atributos
+        2.1.1. Para os atributos, exceto densidade populacional, o que tiver o maior valor vence.
+
+3. Mostrar a carta vencedora somando todos os atributos(Super Poder)
+ 
+
+PSEUDOCÓDIGO > Comparação individual de atribto
+1. Escrever para o usuario;
+    "Comparação de atributo: População"
+     Carta (Código da carta: estado + numeroDaCidade) - Cidade1: População
+     Carta (Código da carta: estado2 + numeroDaCidade2) - Cidade2: População2
+     Resultado: CartaX CidadeX venceu 
+
+
+PSEUDOCÓDIGO > Determinar a carta vencedora
+    1. Utilizar a estrutura de decisão If
+        If(atributo1 > atributo2) {
+            printf("AtributoX: Carta 1 venceu);
+        } else{
+            printf("AtributoX: Carta 2 venceu);
+        }
+
+    1.1 Atributos para implementar
+        1. Populacao
+        2. Area
+        3. PIB
+        4. Pib per capita 
+        5. Numero de pontos turisticos
+        6. Densidade populacional 
+        7. Super poder 
