@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//Teste de commit pelo Vs code desktop!!!
+
 //Para que não seja necessário o usuario digitar o PIB com todas as suas casas decimais e ser mais fácil de visualizar o PIB, o programa leva em consideração somente os dois ou três primeiros digitados pelo usuario. (EX.: "25" bilhoes ou "350" Bilhoes). 
 
 //Para ser possível calcular o PIB per capita, o programa multiplica o  valor digitado pelo usuário por 10^9, e depois é feita a divisão pela população. 
